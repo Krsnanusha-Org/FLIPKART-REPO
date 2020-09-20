@@ -14,6 +14,7 @@ public class EmployeeController {
 	@GetMapping(value ="/employeeList")
 	public ModelAndView showEmployeeListPage() {
 		logger.info("EmployeeController.showEmployeeListPage()");
+		logger.info("Checking Conflicts...");
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("employeelist");
 		return mv;
