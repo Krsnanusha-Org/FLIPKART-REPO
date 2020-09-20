@@ -14,7 +14,6 @@ public class EmployeeController {
 	@GetMapping(value ="/employeeList")
 	public ModelAndView showEmployeeListPage() {
 		logger.info("EmployeeController.showEmployeeListPage()");
-		logger.info("Checking Conflicts...");
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("employeelist");
 		return mv;
@@ -23,7 +22,8 @@ public class EmployeeController {
 	@GetMapping(value = "/employeeadd")
 	public String showEmployeeAddPage() {
 		logger.info("EmployeeController.showEmployeeAddPage()");
-		System.out.println("EmployeeController.showEmployeeAddPage()");
+		logger.info("new statment");
+		
 		return "employeeadd"; //logic view name is returned here
 	}
 
