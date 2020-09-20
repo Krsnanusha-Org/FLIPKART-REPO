@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import com.krsna.sample2.service.ContactService;
 
 @Controller
-public class ContactPageController {
+public class ContactPageController {  
 	
 	Logger logger = LoggerFactory.getLogger(ContactPageController.class);
-	
+	   
 	@Autowired
 	ContactService contactService;
 	
