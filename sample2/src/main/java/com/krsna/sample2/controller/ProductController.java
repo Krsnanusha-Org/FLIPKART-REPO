@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.krsna.sample2.model.Product;
-import com.krsna.sample2.sevice.ProductService;
+import com.krsna.sample2.service.ProductService;
 
 @Controller
 public class ProductController {

@@ -1,4 +1,4 @@
-package com.krsna.sample2.sevice;
+package com.krsna.sample2.service;
 
 import java.util.ArrayList;
 import java.util.List;
