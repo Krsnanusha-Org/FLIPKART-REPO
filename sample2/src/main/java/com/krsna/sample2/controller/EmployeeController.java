@@ -22,6 +22,7 @@ public class EmployeeController {
 	@GetMapping(value = "/employeeadd")
 	public String showEmployeeAddPage() {
 		logger.info("EmployeeController.showEmployeeAddPage()");
+		logger.info("new statment");
 		
 		return "employeeadd"; //logic view name is returned here
 	}
